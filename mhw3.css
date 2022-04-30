@@ -1,0 +1,68 @@
+
+  .Ap1{
+    font-size: 20px;
+    height: 400px;
+  }
+  
+  .Api1, .animen, .ApiOAuth{
+    display: none;
+  }
+  
+  .On{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .Off{
+      display: none;
+   }
+  
+  #Anime{
+      display: flex;
+      flex-direction: row;
+  }
+
+  #button{
+      display: flex;
+      flex-direction: column;
+      height: 30px;
+  }
+
+  #ricomincia{
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  #album-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #album-view .album {
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 10px;
+    max-width: 230px;  
+    max-height: 230px; 
+    display: flex;
+    flex-direction:column;
+    cursor: pointer;
+    background-color: white; 
+  }
+  
+  #album-view .album:hover {
+      background-color: #cfe3ff;
+  }
+  
+  #album-view img {
+      max-width: 100%;
+      max-height: 70%;
+  }
+  
+ 
+
+
+
+
+
